@@ -1,0 +1,186 @@
+    html {
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+    }
+    
+    body {
+        background-color: rgb(0, 0, 0) !important;
+        overflow-x: hidden;
+    }
+    
+    h1 {
+        color: whitesmoke;
+        font-family: 'Montserrat', 'sans-serif';
+        font-weight: lighter;
+    }
+    
+    .logo-bg {
+        height: 57px;
+        width: 57px;
+        background-color: #2c2c2c;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    
+    #logo-text {
+        padding-top: 20%;
+        text-align: center;
+        color: whitesmoke;
+        padding-left: 4px;
+    }
+    
+    .container-fluid-srinivas {
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    
+    .logo-bg:hover {
+        background-color: rgb(0, 0, 0);
+    }
+    
+    #logo-text:hover {
+        color: #2A4891;
+    }
+    
+    .dot-nav {
+        height: 15px;
+        width: 15px;
+        background-color: transparent;
+        border-color: #2A4891;
+        border-style: solid;
+        border-radius: 50%;
+        display: inline-block;
+        color: rgb(168, 168, 168);
+        margin-left: 20px;
+    }
+    
+    .navbar-srinivas {
+        margin-top: 20px;
+        float: right;
+    }
+    
+    .dot-nav:hover {
+        background-color: #2A4891;
+    }
+    
+    .dot-nav>.menutext {
+        font-family: 'Montserrat', 'sans-serif';
+        font-weight: lighter;
+        visibility: hidden;
+        background-color: #2a479194;
+        width: 130px;
+        color: whitesmoke;
+        text-align: center;
+        border-radius: 3px;
+        position: absolute;
+        bottom: -20%;
+        opacity: 0;
+        transition: opacity 0.3s;
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: small;
+        font-weight: bold;
+    }
+    
+    .menusrinivas a:hover {
+        text-decoration: none;
+    }
+    
+    .dot-nav:hover .menutext {
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .dot-nav:visited {
+        background-color: #2A4891;
+    }
+    
+    .dot-nav:active {
+        background-color: #2A4891;
+    }
+    
+    #header-srinivas {
+        margin-top: 100px;
+        text-align: center;
+    }
+    
+    #header-srinivas #import {
+        font-family: 'Montserrat', 'sans-serif';
+        font-weight: normal;
+        color: rgb(156, 156, 156);
+        letter-spacing: 4px;
+        padding-bottom: 20px;
+    }
+    
+    #header-srinivas .name-header {
+        color: #2a4891;
+    }
+    
+    #header-srinivas .country-header {
+        background: -webkit-linear-gradient(rgb(185, 107, 54), rgb(255, 255, 255), rgb(28, 141, 28));
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    #header-srinivas h3 {
+        color: rgb(156, 156, 156);
+        font-family: 'Montserrat', 'sans-serif';
+        font-weight: normal;
+    }
+    
+    #official_name {
+        color: #2A4891;
+        font-family: 'Montserrat', 'sans-serif';
+        font-weight: normal;
+        font-size: 70px;
+        letter-spacing: 4px;
+        padding-bottom: 20px;
+    }
+    
+    .material-icons {
+        font-size: 60px !important;
+        color: #2A4891;
+    }
+    
+    #HumanBeing {
+        padding-top: 20px;
+        color: rgb(156, 156, 156);
+        font-family: 'Montserrat', 'sans-serif';
+        font-weight: lighter;
+        font-size: medium;
+    }
+    
+    #HumanBeing span {
+        color: #2a4891;
+    }
+    
+    .material-icons {
+        padding-top: 40px;
+    }
+    
+    #aboutme {
+        margin-top: 140px;
+        color: rgb(156, 156, 156);
+        margin-bottom: 140px;
+        margin-left: 30px;
+    }
+    
+    #aboutmeimg {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .aboutmeheader {
+        color: #2A4891;
+        font-family: 'Montserrat', 'sans-serif';
+        font-weight: normal;
+        font-size: 50px;
+        letter-spacing: 4px;
+        padding-bottom: 20px;
+    }
+    
+    .aboutmeheader p {
+        word-spacing: 20px;
+        opacity: 50%;
+        font-family: 'Roboto', sans-serif;
+    }
