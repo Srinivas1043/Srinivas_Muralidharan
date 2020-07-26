@@ -4,12 +4,12 @@
     }
     
     body {
-        background-color: rgb(0, 0, 0) !important;
+        background-color: #f5f5f5 !important;
         overflow-x: hidden;
     }
     
     h1 {
-        color: whitesmoke;
+        color: #0a111b;
         font-family: 'Montserrat', 'sans-serif';
         font-weight: lighter;
     }
@@ -17,7 +17,7 @@
     .logo-bg {
         height: 57px;
         width: 57px;
-        background-color: #2c2c2c;
+        background-color: #0a111b;
         border-radius: 50%;
         display: inline-block;
     }
@@ -25,7 +25,7 @@
     #logo-text {
         padding-top: 20%;
         text-align: center;
-        color: whitesmoke;
+        color: #ffffff;
         padding-left: 4px;
     }
     
@@ -35,23 +35,24 @@
     }
     
     .logo-bg:hover {
-        background-color: rgb(0, 0, 0);
+        background-color: rgb(253, 253, 253);
+        color: #0a111b;
     }
     
     #logo-text:hover {
-        color: #2A4891;
+        color: #0a111b;
     }
     
     .dot-nav {
         height: 15px;
         width: 15px;
         background-color: transparent;
-        border-color: #2A4891;
+        border-color: #0a111b;
         border-style: solid;
         border-radius: 50%;
         display: inline-block;
         color: rgb(168, 168, 168);
-        margin-left: 20px;
+        margin-left: 80px;
     }
     
     .navbar-srinivas {
@@ -60,16 +61,16 @@
     }
     
     .dot-nav:hover {
-        background-color: #2A4891;
+        background-color: #0a111b;
     }
     
     .dot-nav>.menutext {
         font-family: 'Montserrat', 'sans-serif';
         font-weight: lighter;
         visibility: hidden;
-        background-color: #2a479194;
+        background-color: rgb(255, 255, 255);
         width: 130px;
-        color: whitesmoke;
+        color: black;
         text-align: center;
         border-radius: 3px;
         position: absolute;
@@ -91,11 +92,11 @@
     }
     
     .dot-nav:visited {
-        background-color: #2A4891;
+        background-color: #0a111b;
     }
     
     .dot-nav:active {
-        background-color: #2A4891;
+        background-color: #0a111b;
     }
     
     #header-srinivas {
@@ -112,11 +113,12 @@
     }
     
     #header-srinivas .name-header {
-        color: #2a4891;
+        color: #0a111b;
     }
     
     #header-srinivas .country-header {
-        background: -webkit-linear-gradient(rgb(185, 107, 54), rgb(255, 255, 255), rgb(28, 141, 28));
+        font-weight: bolder;
+        background: -webkit-linear-gradient(rgb(214, 100, 25), rgb(255, 255, 255), rgb(28, 141, 28));
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -129,7 +131,7 @@
     }
     
     #official_name {
-        color: #2A4891;
+        color: #0a111b;
         font-family: 'Montserrat', 'sans-serif';
         font-weight: normal;
         font-size: 70px;
@@ -137,9 +139,9 @@
         padding-bottom: 20px;
     }
     
-    .material-icons {
+    #iconarrow {
         font-size: 60px !important;
-        color: #2A4891;
+        color: #0a111b;
     }
     
     #HumanBeing {
@@ -151,7 +153,7 @@
     }
     
     #HumanBeing span {
-        color: #2a4891;
+        color: #0a111b;
     }
     
     .material-icons {
@@ -171,7 +173,7 @@
     }
     
     .aboutmeheader {
-        color: #2A4891;
+        color: #0a111b;
         font-family: 'Montserrat', 'sans-serif';
         font-weight: normal;
         font-size: 50px;
@@ -183,4 +185,152 @@
         word-spacing: 20px;
         opacity: 50%;
         font-family: 'Roboto', sans-serif;
+    }
+    
+    .fa:hover {
+        color: #0a111b;
+    }
+    
+    .abouticon {
+        color: rgb(156, 156, 156);
+        font-size: 24px !important;
+    }
+    
+    .rightline {
+        border: 1px solid #0a111b;
+        width: 70%;
+    }
+    
+    .dividercircleright {
+        height: 15px;
+        width: 15px;
+        background-color: #0a111b;
+        border-color: #0a111b;
+        border-style: solid;
+        border-radius: 50%;
+        color: rgb(168, 168, 168);
+        float: right;
+        margin-right: 20px;
+        transition: box-shadow .3s;
+    }
+    
+    .dividercircleright:hover {
+        box-shadow: 0 0 11px rgb(103, 200, 233);
+    }
+    
+    #resume {
+        margin-top: 100px;
+        color: rgb(156, 156, 156);
+        padding-bottom: 80px;
+        padding-left: 250px;
+    }
+    
+    .resumetitle {
+        color: #0a111b;
+        font-family: 'Montserrat', 'sans-serif';
+        font-weight: normal;
+        font-size: 50px !important;
+        letter-spacing: 4px;
+        padding-bottom: 60px;
+        margin-left: -250px;
+        text-align: center;
+    }
+    
+    .resumeicon {
+        width: 100px;
+        height: 100px;
+        border-radius: 5%;
+        transition: box-shadow .8s;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    
+    .resumeicon:hover {
+        transition: box-shadow .8s;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+    
+    .resumecontentdesc {
+        padding-top: 10px;
+        font-family: 'Roboto', 'sans-serif';
+        color: #0a111b;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    
+    .resumecontent {
+        padding-bottom: 30px;
+    }
+    
+    #education {
+        margin-top: 60px;
+        color: rgb(156, 156, 156);
+        padding-bottom: 80px;
+    }
+    
+    .education-title {
+        color: #0a111b;
+        font-family: 'Montserrat', 'sans-serif';
+        font-weight: normal;
+        font-size: 50px !important;
+        letter-spacing: 4px;
+        padding-bottom: 60px;
+        text-align: center;
+        padding-top: 60px;
+    }
+    
+    .quote {
+        font-family: 'Roboto', sans-serif;
+        color: #0a111b;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    
+    .card-education {
+        padding-top: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        padding-bottom: 20px;
+        color: #0a111b;
+    }
+    
+    .card-education:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+    
+    .education-year {
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+    
+    .education-content {
+        text-align: center;
+    }
+    
+    .education-grade {
+        text-align: center;
+    }
+    
+    .edu-hr {
+        width: 20%;
+    }
+    
+    .edu-row {
+        padding-bottom: 60px;
+    }
+    
+    #moreabout {
+        margin-top: 60px;
+        color: rgb(156, 156, 156);
+        padding-bottom: 80px;
+    }
+    
+    .moreabout-title {
+        color: #0a111b;
+        font-family: 'Montserrat', 'sans-serif';
+        font-weight: normal;
+        font-size: 50px !important;
+        letter-spacing: 4px;
+        padding-bottom: 60px;
+        text-align: center;
+        padding-top: 60px;
     }
